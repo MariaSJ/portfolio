@@ -1,0 +1,131 @@
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: $z-fixed;
+    background-color: $body-color;
+}
+
+.nav{
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 16px;
+
+    &__name, &__toggle{
+        font-size: $small-font-size;
+        color: $font-color;
+        font-weight: $font-medium;
+    }
+
+    &__menu{
+
+    }
+
+    &__list{
+        display: flex;
+        column-gap: 32px;
+    }
+
+    &__item{
+
+    }
+
+    &__link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: $small-font-size;
+        color: $font-color;
+        font-weight: $font-medium;
+        transition: .3s;
+    }
+
+    &__close, &__icon, &__toggle{
+        display: none;
+    }
+}
+
+.active-link, 
+.nav__link:hover{
+    color: $active-color;
+}
+
+
+////////////////////////////////////////////////
+
+@media screen and (max-width:768px){
+    .header{
+        top: initial;
+        bottom: 0;
+    }
+
+    .nav{
+        height: $header-height;
+
+        &__menu{
+            position: fixed;
+            bottom: -100%;
+            left: 0;
+            width: 100%;
+            padding: 2rem 1.5rem 4rem;
+            box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 1.5rem  1.5rem 0 0;
+            transition: .3s;
+        }
+
+        /* show menu*/
+
+        .show-menu{
+            bottom: 0;
+        }
+
+        &__list{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+
+        &__icon{
+            font-size: 1.2rem;
+        }
+
+        &__close{
+            position: absolute;
+            right: 1.3rem;
+            bottom: .5rem;
+            font-size: 1.5rem;
+            cursor: pointer;
+            &:hover{
+                color: red;
+            }
+        }
+
+        &__toggle{
+            font-size: 1.1rem;
+            cursor: pointer;
+        }
+
+        &__icon, &__close, &__toggle{
+            display: block;
+        }
+    }
+}
+
+@media screen and (max-width:576px){
+    
+}
+
+@media screen and (max-width:350px){
+    .nav{
+        &__menu{
+            padding: 2rem 0.25rem 4rem;
+        }
+
+        &__list{
+            column-gap: 0;
+        }
+    }
+}

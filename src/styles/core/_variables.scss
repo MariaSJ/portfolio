@@ -1,0 +1,98 @@
+$header-height: 3rem;
+
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+$main-font: 'Poppins', sans-serif;
+
+// font weight
+$font-normal: 400;
+$font-medium: 500;
+$font-semi-bold: 600;
+
+// font size
+$bigFontSize: 56px;
+$h1-size: 36px;
+$h2-size: 24px;
+$h3-size: 20px;
+$normal-font-size: 16px;
+$small-font-size: 14px;
+$smaller-font-size: 13px;
+$tiny-font-size: 10px;
+
+// Colors 
+$body-color: white;
+$font-color: black;
+$active-color: red;
+
+// z index
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;
+
+// Reusable class 
+.section{
+    padding: 96px 32px;
+}
+
+.section__title{
+    font-size: $h1-size;
+    color: $font-color;
+}
+
+.section__subtitle{
+    display: block;
+    font-size: $small-font-size;
+    margin-bottom: 64px;
+}
+
+.section__title, .section__subtitle{
+    text-align: center;
+}
+
+// layout
+
+.container{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem, 
+}
+
+.button{
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    border-radius: 16px;
+    font-weight: $font-medium;
+    &:hover{
+        background-color: $active-color;
+    }
+}
+
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+}
+
+// DESING RESPONSIVE
+
+//  large devices
+
+@media screen and (max-width:992px){
+    .container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+// small devices
+
+@media screen and (max-width:350px){
+    // .container{
+    //     margin-left: 20px;
+    //     margin-right: 20px;
+    // }
+}
