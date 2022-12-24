@@ -2,15 +2,17 @@ import '../styles/App.scss';
 import {useState} from 'react';
 //import callToApi from '../services/api';
 //import ls from '../services/localStorage';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 
 // layout
 import Header from './Header';
+import Home from './Home';
 
 function App() {
 
 // STATES
-const [ showMenu, setShowMenu ] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
+  const [showName, setShowName] = useState(true);
 
 // USEEFFECT
 
@@ -27,11 +29,16 @@ const [ showMenu, setShowMenu ] = useState(false);
 
 const handlerShowMenu = () => {
   setShowMenu(!showMenu);
+  setShowName(!showName);
 };
 
   return (
     <>
-      <Header handlerShowMenu={handlerShowMenu} showMenu={showMenu} />
+      <Header handlerShowMenu={handlerShowMenu} showMenu={showMenu} showName={showName} />
+      <main className="main">
+        <Home/>
+      </main>
+      
     </>
   );
 }

@@ -20,17 +20,9 @@
         font-weight: $font-medium;
     }
 
-    &__menu{
-
-    }
-
     &__list{
         display: flex;
         column-gap: 32px;
-    }
-
-    &__item{
-
     }
 
     &__link{
@@ -52,6 +44,8 @@
 .nav__link:hover{
     color: $active-color;
 }
+
+
 
 
 ////////////////////////////////////////////////
@@ -80,6 +74,7 @@
 
         .show-menu{
             bottom: 0;
+            transition: .3s;
         }
 
         &__list{
@@ -104,13 +99,18 @@
         }
 
         &__toggle{
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             cursor: pointer;
         }
 
         &__icon, &__close, &__toggle{
             display: block;
         }
+    }
+
+    .hidden{
+        display: none;
+        transition: .3s;
     }
 }
 
