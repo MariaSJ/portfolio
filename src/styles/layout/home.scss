@@ -1,9 +1,25 @@
 .home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+    &__container{
+        margin-top: 80px;
+    }
+
     &__content{
         grid-template-columns: 116px repeat(2, 1fr);
         padding-top: 88px;
         column-gap: 32px;
         align-items: center;
+    }
+
+    &__data{
+        width: 440px;
     }
 
     &__social{
@@ -20,16 +36,49 @@
         }
     }
 
+    &__title{
+        font-size: $big-font-size;
+        margin-bottom: 10px;
+    }
+
+    &__subtitle{
+        position: relative;
+        font-size: $h1-size;
+        padding-right: 5.4rem;
+        font-weight: $font-normal;
+        margin-bottom: 40px;
+    }
 
     &__img{
         background: url(../../images/mariasj.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        //box-shadow: inset 0 0 0 9px rgb(225, 225, 225 / 30%);
+        box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.3);
         order: 1;
         justify-self: center;
         width: 300px;
         height: 300px;
+        animation: profile__animate 8s ease-in-out infinite 1s;
+    }
+
+    @keyframes profile__animate {
+        0%{
+            border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        }
+        50%{
+            border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+        }
+        100%{
+            border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        }
+    }
+
+    &__button{
+        margin-right: 30px;
+    }
+
+    &__text{
+        margin-bottom: 20px;
     }
 }

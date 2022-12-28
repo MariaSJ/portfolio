@@ -11,8 +11,8 @@ const Home = (props) => {
                     <div className="home__img"></div>
                     <Data/>
                 </div>
-
             </div>
+            <p className="home__text">Made by María SJ</p>
         </section>
 
     );
