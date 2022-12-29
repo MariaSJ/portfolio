@@ -4,6 +4,7 @@ import Social from "./Social";
 const Home = (props) => {
 
     return (
+    <>
         <section className="home" id="home">
             <div className="home__container container grid">
                 <div className="home__content grid">
@@ -12,9 +13,11 @@ const Home = (props) => {
                     <Data/>
                 </div>
             </div>
-            <p className="home__text">Made by María SJ</p>
         </section>
-
+        <footer className="home__footer">
+           <p className="home__text">Made by María SJ</p>     
+        </footer>
+    </>    
     );
 }
 

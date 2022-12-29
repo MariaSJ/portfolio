@@ -39,7 +39,7 @@ const Header = (props) => {
                         <i className="uil uil-times nav__close" onClick={handlerChangeShowMenu}></i>
                     </div>
                     <div className={props.showName ? "nav__toggle" : "hidden"} onClick={handlerChangeShowMenu}>
-                        <i class="uil uil-bars"></i>
+                        <i class="uil uil-apps"></i>
                     </div>
                 </nav>
             </header>
