@@ -13,9 +13,10 @@
     justify-content: space-between;
     align-items: center;
     column-gap: 16px;
+    margin-top: 10px;
 
     &__name, &__toggle{
-        font-size: 17px;
+        font-size: 20px;
         color: $font-color;
         font-weight: $font-medium;
     }
@@ -29,7 +30,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 17px;
+        font-size: 20px;
         color: $font-color;
         font-weight: $font-medium;
         transition: .3s;
@@ -64,6 +65,7 @@
             bottom: -100%;
             left: 0;
             width: 100%;
+            //padding: 2rem 0.25rem 4rem;
             padding: 2rem 1.5rem 4rem 1.5rem;
             box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
             border-radius: 1.5rem  1.5rem 0 0;
@@ -114,7 +116,7 @@
     }
 }
 
-@media screen and (max-width:350px){
+@media screen and (max-width:380px){
     .nav{
         &__menu{
             padding: 2rem 0.25rem 4rem;
@@ -125,7 +127,7 @@
         }
 
         &__link{
-            font-size: 10px;
+            font-size: 15px;
             text-align: center;
         }
     }

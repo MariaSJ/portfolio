@@ -68,19 +68,6 @@ $z-modal: 1000;
     gap: 1.5rem, 
 }
 
-.button{
-    display: inline-block;
-    padding: 15px 25px;
-    border-radius: 16px;
-    font-size: $h3-size;
-    font-weight: $font-medium;
-    color: $font-color2;
-    background-color: $button-color;
-    &:hover{
-        background-color: $active-color;
-    }
-}
-
 .button--flex{
     display: inline-flex;
     align-items: center;

@@ -6,8 +6,8 @@ const Home = (props) => {
     return (
     <>
         <section className="home" id="home">
-            <div className="home__container container grid">
-                <div className="home__content grid">
+            <div className="home__container">
+                <div className="home__content">
                     <Social />
                     <div className="home__img"></div>
                     <Data/>
