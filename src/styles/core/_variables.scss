@@ -31,6 +31,10 @@ $button-color: rgb(31, 31, 31);
 
 
 // z index
+.main{
+    position: relative;
+    z-index: 1;
+}
 $z-tooltip: 10;
 $z-fixed: 100;
 $z-modal: 1000;
@@ -84,11 +88,3 @@ $z-modal: 1000;
     }
 }
 
-// small devices
-
-@media screen and (max-width:350px){
-    // .container{
-    //     margin-left: 20px;
-    //     margin-right: 20px;
-    // }
-}

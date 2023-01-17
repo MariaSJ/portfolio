@@ -1,12 +1,13 @@
 import '../styles/App.scss';
-import {useState} from 'react';
+import { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 //import callToApi from '../services/api';
 //import ls from '../services/localStorage';
-//import PropTypes from 'prop-types';
 
 // layout
 import Header from './Header';
 import Home from './Home';
+import AboutMe from './AboutMe';
 
 function App() {
 
@@ -36,9 +37,11 @@ const handlerShowMenu = () => {
     <>
       <Header handlerShowMenu={handlerShowMenu} showMenu={showMenu} showName={showName} />
       <main className="main">
-        <Home/>
-      </main>
-      
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutMe" element={<AboutMe/>} />
+      </Routes>
+      </main> 
     </>
   );
 }

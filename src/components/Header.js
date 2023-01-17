@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 const Header = (props) => {
 
     const handlerChangeShowMenu = (ev) => {
@@ -10,29 +12,29 @@ const Header = (props) => {
         <>
             <header className="header">
                 <nav className="nav container">
-                    <a href="index.html" className={props.showName ? "nav__name" : "hidden"}>María SJ</a>
+                    <NavLink href="index.html" className={props.showName ? "nav__name" : "hidden"}>María SJ</NavLink>
 
                     <div className={props.showMenu ? "nav__menu show-menu" : "nav__menu"}>
                         <ul className="nav__list grid">
                             <li className="nav__item">
-                                <a className="nav__link active-link" href="#Home">
+                                <NavLink className="nav__link active-link" to="/">
                                     <i className="uil uil-estate nav__icon"></i>Home
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav__item">
-                                <a className="nav__link" href="#AboutMe">
+                                <NavLink className="nav__link" to="/AboutMe">
                                     <i className="uil uil-user nav__icon"></i>Sobre mí
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav__item">
-                                <a className="nav__link" href="#Proyects">
+                                <NavLink className="nav__link" to="/Proyects">
                                     <i className="uil uil-folder nav__icon"></i>Proyectos
-                                </a>
+                                </NavLink>
                             </li>
                             <li className="nav__item">
-                                <a className="nav__link" href="#Contact">
+                                <NavLink className="nav__link" to="/Contact">
                                     <i className="uil uil-at nav__icon"></i>Contacto
-                                </a>
+                                </NavLink>
                             </li>
                         </ul>
 
