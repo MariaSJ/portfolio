@@ -1,4 +1,5 @@
 .aboutMe{
+    
     &__description{
         display: flex;
         flex-direction: column;
@@ -21,8 +22,6 @@
         width: 250px;
     }
 
-
-
     &__tech{
         background-color: black;
         display: flex;
@@ -30,18 +29,20 @@
         justify-content: center;
         align-items: center;
     }
+
     &__title--two{
         margin-top: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         color: $body-color;
     }
+
     &__list{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         gap: 15px;
-        margin-bottom: 100px;
+        margin: 30px 30px 85px 30px;
     }
 
     &__item{
@@ -49,9 +50,64 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 2.5rem;
         width: 70px;
         height: 70px;
         border-radius: 50px;
     }
+    &__logo{
+        width: 2.5rem;
+    }
+}
+
+//////////////////////////////////////////////
+
+@media screen and (min-width:768px){
+    .aboutMe{
+        height: 100vh;
+
+        &__description{
+            height: 65%;
+            margin: 0px;
+        }
+
+        &__title--one, &__title--two{
+            font-size: 30px;
+        }
+
+        &__title--one{
+            margin-top: 50px;
+        }
+
+        &__text{
+            font-size: 20px;
+            margin-left: 55px;
+            margin-right: 55px;
+        }
+    
+        &__img{
+            width: 400px;
+        }
+
+        &__tech{
+            height: 35%;
+        }
+
+        &__list{
+            margin: 30px;
+            gap: 25px;
+        }
+
+        &__item{
+            width: 80px;
+            height: 80px;
+        }
+
+        &__logo{
+            width: 2.9rem;
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+
 }
