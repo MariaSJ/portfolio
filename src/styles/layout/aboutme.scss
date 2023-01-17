@@ -1,29 +1,57 @@
 .aboutMe{
     &__description{
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 25px;
     }
 
-    &__title{
-
+    &__title--one{
+        order: 1;
     }
 
     &__text{
-
+        order: 3;
+        text-align: center;
     }
 
     &__img{
-
+        order: 2;
+        width: 250px;
     }
+
+
 
     &__tech{
-
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-
+    &__title--two{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        color: $body-color;
+    }
     &__list{
-
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 100px;
     }
 
     &__item{
-        
+        background-color: $body-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
     }
 }
