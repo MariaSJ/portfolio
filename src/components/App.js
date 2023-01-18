@@ -8,6 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Home from './Home';
 import AboutMe from './AboutMe';
+import Proyects from './Proyects';
 
 function App() {
 
@@ -39,7 +40,8 @@ const handlerShowMenu = () => {
       <main className="main">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/aboutMe" element={<AboutMe/>} />
+        <Route path="/AboutMe" element={<AboutMe />} />
+        <Route path="/Proyects" element={<Proyects />}/>
       </Routes>
       </main> 
     </>
