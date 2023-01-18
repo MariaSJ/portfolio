@@ -20,3 +20,22 @@
         margin-bottom: 30px;
     }
 }
+
+////////////////////////////////////////////
+
+@media screen and (min-width:768px){
+    .proyects{
+        margin-top: 70px;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+
+        &__list{
+            gap: 50px;
+        }
+
+        &__title{
+            margin-bottom: 50px;
+        }
+    }
+}
