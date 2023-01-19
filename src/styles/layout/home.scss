@@ -80,11 +80,11 @@
         border-radius: 16px;
         font-size: $small-font-size;
         font-weight: $font-normal;
-        color: $font-color2;
+        color: $body-color;
         background-color: $button-color;
         margin-right: 30px;
         &:hover{
-            background-color: $active-color;
+            background-color: $hover-color;
         }
     }
 

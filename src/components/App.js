@@ -16,6 +16,10 @@ function App() {
   const [showMenu, setShowMenu] = useState(false);
   const [showName, setShowName] = useState(true);
 
+  // const [activeAboutMe, setActiveAboutMe] = useState(false);
+  // const [activeProyects, setActiveProyects] = useState(false);
+  // const [activeContact, setActiveContact ] = useState(false);
+
 // USEEFFECT
 
 // useEffect(() => {
@@ -33,6 +37,10 @@ const handlerShowMenu = () => {
   setShowMenu(!showMenu);
   setShowName(!showName);
 };
+
+// const handlerActiveAboutMe = () => {
+//   setActiveAboutMe(!activeAboutMe);
+// };
 
   return (
     <>

@@ -7,6 +7,10 @@ const Header = (props) => {
         props.handlerShowMenu();
     };
 
+    // const handlerChangeActiveAboutMe = (ev) => {
+    //     ev.preventDefault();
+    //     props.handlerActiveAboutMe();
+    // };
 
     return (
         <>
