@@ -9,6 +9,7 @@ import Header from './Header';
 import Home from './Home';
 import AboutMe from './AboutMe';
 import Proyects from './Proyects';
+import Contact from './Contact';
 
 function App() {
 
@@ -49,7 +50,8 @@ const handlerShowMenu = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/AboutMe" element={<AboutMe />} />
-        <Route path="/Proyects" element={<Proyects />}/>
+        <Route path="/Proyects" element={<Proyects />} />
+        <Route path="/Contact" element={<Contact />}/>
       </Routes>
       </main> 
     </>

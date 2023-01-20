@@ -1,4 +1,4 @@
-import image from '../images/aboutme.svg';
+import imgAboutMe from '../images/aboutme.svg';
 
 const AboutMe = () => {
 
@@ -9,7 +9,7 @@ const AboutMe = () => {
                 <p className="aboutMe__text">
                 Trabajadora social, y ahora, ¡Programadora Front-End! 👩🏻‍💻✨ Cargada de habilidades sociales y sin miedo a lo desconocido, me adentré en el mundo tecnológico, desde entonces dedico mi tiempo a afrontar los múltiples retos que me plantea esta disciplina, haciendo de ella mi nueva pasión 💪🏻  
                 </p>
-                <img className="aboutMe__img" src={image} alt="aboutMe"></img>
+                <img className="aboutMe__img" src={imgAboutMe} alt="aboutMe"></img>
             </article>
             
             <article className="aboutMe__tech">

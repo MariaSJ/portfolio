@@ -1,0 +1,131 @@
+.contact{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    &__card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    &__title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    &__icon{
+        font-size: 30px;
+    } 
+
+    &__img{
+        width: 350px;
+    }
+
+    &__media{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+    }
+
+    &__link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        color: $font-color;
+        font-size: 30px;
+
+        &:hover{
+            color: $hover-color;
+        }
+    }
+
+    &__text{
+        font-size: 15px;
+    }
+}
+
+///////////////////////////////////////////////
+
+@media screen and (min-width:768px){
+    .contact{
+
+        &__icon{
+            font-size: 30px;
+        }
+    
+        &__img{
+            width: 550px;
+        }
+
+        &__link{
+            font-size: 55px;
+        }
+    
+        &__text{
+            font-size: 25px;
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+    .contact{
+        &__card{
+            margin-top: 70px;
+        }
+
+        &__subtitle{
+            font-size: 35px;
+        }
+
+        &__elements{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        &__icon{
+            font-size: 30px;
+        }
+    
+        &__img{
+            width: 470px;
+        }
+
+        &__media{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__link{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            width: 200px;
+            font-size: 45px;
+            gap: 15px;
+        }
+    
+        &__text{
+            font-size: 20px;
+        }
+    }
+}
+
+
+
+  
+  
