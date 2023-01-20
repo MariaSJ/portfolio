@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.6f7a0ba4.css",
-    "main.js": "./static/js/main.4e66cfac.js",
+    "main.js": "./static/js/main.82628cfa.js",
     "static/media/anonymus.png": "./static/media/anonymus.d41c2b08bef30ca7084d.png",
     "static/media/ringsofpower.png": "./static/media/ringsofpower.eaf57861833f526f2309.png",
     "static/media/breakingbad.png": "./static/media/breakingbad.406cf99a2a227e16d5a9.png",
@@ -14,10 +14,10 @@
     "static/media/minioncard.png": "./static/media/minioncard.e25aee44d56dc2464435.png",
     "index.html": "./index.html",
     "main.6f7a0ba4.css.map": "./static/css/main.6f7a0ba4.css.map",
-    "main.4e66cfac.js.map": "./static/js/main.4e66cfac.js.map"
+    "main.82628cfa.js.map": "./static/js/main.82628cfa.js.map"
   },
   "entrypoints": [
     "static/css/main.6f7a0ba4.css",
-    "static/js/main.4e66cfac.js"
+    "static/js/main.82628cfa.js"
   ]
 }
