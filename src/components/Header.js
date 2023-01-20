@@ -21,7 +21,7 @@ const Header = (props) => {
                     <div className={props.showMenu ? "nav__menu show-menu" : "nav__menu"}>
                         <ul className="nav__list grid">
                             <li className="nav__item">
-                                <NavLink className="nav__link active-link" to="/">
+                                <NavLink className="nav__link" to="/">
                                     <i className="uil uil-estate nav__icon"></i>Home
                                 </NavLink>
                             </li>
