@@ -1,0 +1,72 @@
+.contact{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    &__card {
+        --bg: #f7f7f8;
+        --hover-bg: #FFE5F4;
+        --hover-text: #E50087;
+        width: 500px;
+        height: 200px;
+        text-align: center;
+        background: var(--bg);
+        padding: 1.5em;
+        padding-block: 1.8em;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+        transition: .3s cubic-bezier(.6,.4,0,1),transform .15s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+
+        &:hover{
+            background: var(--hover-bg);
+            
+        }
+        &:hover, %contact__face--two, .card:hover %contact__title {
+            opacity: 0;
+        }
+    }
+
+    &__title{
+        display: block;
+        font-size: 1.4rem;
+        letter-spacing: -.035em; 
+    }
+
+    &__face--two{
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--hover-text);
+        border-radius: 5px;
+        font-weight: bold;
+        top: 100%;
+        transition: all .3s cubic-bezier(.6,.4,0,1);
+
+        &:hover{
+            top: 0;
+            font-size: 1.2em;  
+        }
+    }
+}
+
+.card:not(.contact__face-two){
+        transition: .3s cubic-bezier(.6,.4,0,1);
+}
+  
+  
+
+  
+  
