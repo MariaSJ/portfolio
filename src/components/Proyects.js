@@ -68,8 +68,8 @@ const Proyects = () => {
                 <ProyectElement
                     title={'Anonymus Proxy'}
                     img={AnonymusProxy}
-                    codeLink={'https://github.com/MariaSJ/modulo-1-evaluacion-final-MariaSJ'}
-                    webLink={'http://mariasj.github.io/modulo-1-evaluacion-final-MariaSJ/'}
+                    codeLink={'https://github.com/MariaSJ/anonymus-proxy-layout'}
+                    webLink={'https://mariasj.github.io/anonymus-proxy-layout/'}
                 />
 
             </div>
