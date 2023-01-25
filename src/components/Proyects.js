@@ -20,24 +20,24 @@ const Proyects = () => {
                 <ProyectElement
                     title={'Rick and Morty Web'}
                     img={RickAndMorty}
-                    codeLink={'https://github.com/MariaSJ/modulo-3-evaluacion-final-MariaSJ'}
-                    webLink={'http://mariasj.github.io/modulo-3-evaluacion-final-MariaSJ/'}
+                    codeLink={'https://github.com/MariaSJ/rick-and-morty-website'}
+                    webLink={'https://mariasj.github.io/rick-and-morty-website/'}
                 />
 
                 {/* THE RINGS OF POWER */}
                 <ProyectElement
                     title={'The Rings of Power: The Game'}
                     img={RingsOfPower}
-                    codeLink={'https://github.com/MariaSJ/modulo-2-evaluacion-intermedia-MariaSJ'}
-                    webLink={'http://mariasj.github.io/modulo-2-evaluacion-intermedia-MariaSJ/'}
+                    codeLink={'https://github.com/MariaSJ/the-rings-of-power-game'}
+                    webLink={'https://mariasj.github.io/the-rings-of-power-game/'}
                 />
 
                 {/* BREAKING BAD WEB */}
                 <ProyectElement
                     title={'Breaking Bad Web'}
                     img={BreakingBad}
-                    codeLink={'https://github.com/MariaSJ/modulo-2-evaluacion-final-MariaSJ'}
-                    webLink={'http://mariasj.github.io/modulo-2-evaluacion-final-MariaSJ/'}
+                    codeLink={'https://github.com/MariaSJ/breaking-bad-characters-website'}
+                    webLink={'https://mariasj.github.io/breaking-bad-characters-website/'}
                 />
 
                 {/* AWESOME PROFILE CARDS I */}
