@@ -16,7 +16,7 @@ const Header = (props) => {
         <>
             <header className="header">
                 <nav className="nav container">
-                    <NavLink href="index.html" className={props.showName ? "nav__name" : "hidden"}>María SJ</NavLink>
+                    <NavLink href="index.html" className={props.showName ? "nav__name" : "hidden"}>[María SJ]</NavLink>
 
                     <div className={props.showMenu ? "nav__menu show-menu" : "nav__menu"}>
                         <ul className="nav__list grid">
