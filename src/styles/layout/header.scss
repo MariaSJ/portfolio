@@ -33,7 +33,16 @@
         font-size: 17px;
         color: $font-color;
         font-weight: $font-medium;
-        transition: .3s;
+        
+        &::after{
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: $hover-color;
+            transition: width .3s;
+            color: $hover-color;
+        }
     }
 
     &__close, &__icon, &__toggle{
@@ -42,7 +51,8 @@
 }
 
 .active-link, 
-.nav__link:hover{
+.nav__link:hover::after{
+    width: 100%;
     color: $hover-color;
 }
 
