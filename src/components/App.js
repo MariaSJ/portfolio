@@ -18,7 +18,7 @@ function App() {
   const [showMenu, setShowMenu] = useState(false);
   const [showName, setShowName] = useState(true);
 
-  // const [activeAboutMe, setActiveAboutMe] = useState(false);
+  const [activeAboutMe, setActiveAboutMe] = useState(false);
   // const [activeProyects, setActiveProyects] = useState(false);
   // const [activeContact, setActiveContact ] = useState(false);
 
@@ -40,13 +40,19 @@ const handlerShowMenu = () => {
   setShowName(!showName);
 };
 
-// const handlerActiveAboutMe = () => {
-//   setActiveAboutMe(!activeAboutMe);
-// };
+const handlerActiveAboutMe = () => {
+  setActiveAboutMe(!activeAboutMe);
+};
 
   return (
     <>
-      <Header handlerShowMenu={handlerShowMenu} showMenu={showMenu} showName={showName} />
+      <Header
+        handlerShowMenu={handlerShowMenu}
+        showMenu={showMenu}
+        showName={showName}
+        handlerActiveAboutMe={handlerActiveAboutMe}
+        activeAboutMe={activeAboutMe}
+      />
       <main className="main">
       <Routes>
         <Route path="/" element={<Home />} />

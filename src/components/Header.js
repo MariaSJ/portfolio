@@ -7,10 +7,10 @@ const Header = (props) => {
         props.handlerShowMenu();
     };
 
-    // const handlerChangeActiveAboutMe = (ev) => {
-    //     ev.preventDefault();
-    //     props.handlerActiveAboutMe();
-    // };
+    const handlerChangeActiveAboutMe = () => {
+        //ev.preventDefault();
+        props.handlerActiveAboutMe();
+    };
 
     return (
         <>
@@ -26,7 +26,7 @@ const Header = (props) => {
                                 </NavLink>
                             </li>
                             <li className="nav__item">
-                                <NavLink className="nav__link" to="/AboutMe">
+                                <NavLink className={props.activeAboutMe ? "nav__link active-link" : "nav__link"} to="/AboutMe" onClick={handlerChangeActiveAboutMe}>
                                     <i className="uil uil-user nav__icon"></i>Sobre mí
                                 </NavLink>
                             </li>
