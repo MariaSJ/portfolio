@@ -43,6 +43,16 @@
             transition: width .3s;
             color: $hover-color;
         }
+
+        &:hover::after{
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background: $hover-color;
+            transition: width .3s;
+            color: $hover-color;
+        }
     }
 
     &__close, &__icon, &__toggle{
@@ -50,11 +60,28 @@
     }
 }
 
-.active-link, 
-.nav__link:hover::after{
-    width: 100%;
+.active-link{
     color: $hover-color;
+    &::after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: $hover-color;
+        transition: width .3s;
+        color: $hover-color;
+    }
 }
+// }::after, 
+// .nav__link:hover::after{
+//     content: '';
+//     display: block;
+//     width: 100%;
+//     height: 2px;
+//     background: $hover-color;
+//     transition: width .3s;
+//     color: $hover-color;
+// }
 
 ////////////////////////////////////////////////
 
@@ -121,6 +148,19 @@
         display: none;
         transition: .3s;
     }
+
+    .active-link{
+        color: $hover-color;
+
+        &::after{
+            display: none;
+        }
+    }
+    
+    .nav__link:hover::after{
+        display: none;
+    }
+
 }
 
 @media screen and (max-width:380px){
