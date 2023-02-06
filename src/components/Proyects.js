@@ -4,6 +4,7 @@ import ProyectElement from "./ProyectElement";
 import RickAndMorty from "../images/rickandmorty.png"
 import RingsOfPower from "../images/ringsofpower.png"
 import BreakingBad from "../images/breakingbad.png"
+import AdviceGenerator from "../images/advicegenerator.png"
 import DebuggerCards from "../images/debuggercards.png"
 import MinionCards from "../images/minioncard.png"
 import TeamWeb from "../images/teamweb.png"
@@ -38,6 +39,14 @@ const Proyects = () => {
                     img={BreakingBad}
                     codeLink={'https://github.com/MariaSJ/modulo-2-evaluacion-final-MariaSJ'}
                     webLink={'http://mariasj.github.io/modulo-2-evaluacion-final-MariaSJ/'}
+                />
+
+                {/* ADVICE GENERATOR */}
+                <ProyectElement
+                    title={'Advice Generator'}
+                    img={AdviceGenerator}
+                    codeLink={'https://github.com/MariaSJ/advice-generator'}
+                    webLink={'https://mariasj.github.io/advice-generator/'}
                 />
 
                 {/* AWESOME PROFILE CARDS I */}
