@@ -68,11 +68,9 @@
 
 @media screen and (min-width:768px){
     .aboutMe{
-        height: 100vh;
 
         &__description{
-            height: 65%;
-            margin: 0px;
+            margin: 35px 25px 25px 25px;
         }
 
         &__title--one, &__title--two{
@@ -91,10 +89,6 @@
     
         &__img{
             width: 400px;
-        }
-
-        &__tech{
-            height: 35%;
         }
 
         &__list{
@@ -120,7 +114,6 @@
         &__description{
             height: 70%;
             width: 968px;
-            //margin-top: 40px;
             margin-left: auto;
             margin-right: auto;
             display: grid;

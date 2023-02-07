@@ -11,7 +11,16 @@ const AboutMe = () => {
                 </p>
                 <img className="aboutMe__img" src={image} alt="aboutMe"></img>
             </article>
-            
+            <article className="aboutMe__skills">
+                <h2 className="aboutMe__title">Soft skills</h2>
+                <ul className="aboutMe__skillList">
+                    <li className="aboutMe__skill">Autodicacta</li>
+                    <li className="aboutMe__skill">Creativa</li>
+                    <li className="aboutMe__skill">Trabajo en equipo</li>
+                    <li className="aboutMe__skill">Proactiva</li>
+                    <li className="aboutMe__skill">Responsable</li>
+                </ul>
+            </article>
             <article className="aboutMe__tech">
                 <h2 className="aboutMe__title--two">Tecnologías</h2>
                 <ul className="aboutMe__list">
