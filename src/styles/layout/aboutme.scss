@@ -30,7 +30,7 @@
         align-items: center;
     }
 
-    &__title--two{
+    &__title--three{
         margin-top: 20px;
         margin-bottom: 20px;
         color: $body-color;
@@ -62,6 +62,37 @@
     &__logo{
         width: 2.5rem;
     }
+
+    &__skills{
+        width: 100%;
+        background-color: $hover-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    &__skillList{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin: 30px 50px 30px 50px;
+    }
+
+    &__skill{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__icon{
+        font-size: 35px;
+        color: $font-color2;
+    }
 }
 
 //////////////////////////////////////////////
@@ -73,7 +104,7 @@
             margin: 35px 25px 25px 25px;
         }
 
-        &__title--one, &__title--two{
+        &__title--one, &__title--three{
             font-size: 30px;
         }
 
@@ -109,10 +140,10 @@
 
 @media screen and (min-width:1024px){
     .aboutMe{
-        height: 100vh;
+        //height: 100vh;
 
         &__description{
-            height: 70%;
+            //height: 70%;
             width: 968px;
             margin-left: auto;
             margin-right: auto;
@@ -147,10 +178,10 @@
         }
 
         &__tech{
-            height: 30%;
+            //height: 30%;
         }
 
-        &__title--two{
+        &__title--three{
             margin-bottom: 10px;
             font-size: 25px;
         }
