@@ -5,6 +5,7 @@ const ProyectElement = (props) => {
     return (
         <article className="proyects__element">
             <h4 className="proyects__name">{props.title}</h4>
+            <div className="proyects__tech">{props.techIcon}</div>
             <img
                 className="proyects__img"
                 src={props.img}
