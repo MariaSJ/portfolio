@@ -1,8 +1,6 @@
 import '../styles/App.scss';
 import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
-//import callToApi from '../services/api';
-//import ls from '../services/localStorage';
 
 // layout
 import Header from './Header';

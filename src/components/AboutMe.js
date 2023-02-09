@@ -15,14 +15,14 @@ const AboutMe = () => {
             <article className="aboutMe__skills">
                 <h2 className="aboutMe__title--two">Soft skills</h2>
                 <ul className="aboutMe__skillList">
-                    <li className="aboutMe__skill"><i class="uil uil-adjust-circle aboutMe__icon"></i>Adaptabilidad</li>
-                    <li className="aboutMe__skill"><i class="uil uil-brain aboutMe__icon"></i>Pensamiento creativo</li>
-                    <li className="aboutMe__skill"><i class="uil uil-user-check aboutMe__icon"></i>Autonomía</li>
-                    <li className="aboutMe__skill"><i class="uil uil-feedback aboutMe__icon"></i>Trabajo en equipo</li>
-                    <li className="aboutMe__skill"><i class="uil uil-forward aboutMe__icon"></i>Iniciativa</li>
-                    <li className="aboutMe__skill"><i class="uil uil-files-landscapes aboutMe__icon"></i>Organización</li>
-                    <li className="aboutMe__skill"><i class="uil uil-bullseye aboutMe__icon"></i>Atención al detalle</li>
-                    <li className="aboutMe__skill"><i class="uil uil-bolt-alt aboutMe__icon"></i>Tolerancia a la presión</li>
+                    <li className="aboutMe__skill"><i className="uil uil-adjust-circle aboutMe__icon"></i>Adaptabilidad</li>
+                    <li className="aboutMe__skill"><i className="uil uil-brain aboutMe__icon"></i>Pensamiento creativo</li>
+                    <li className="aboutMe__skill"><i className="uil uil-user-check aboutMe__icon"></i>Autonomía</li>
+                    <li className="aboutMe__skill"><i className="uil uil-feedback aboutMe__icon"></i>Trabajo en equipo</li>
+                    <li className="aboutMe__skill"><i className="uil uil-forward aboutMe__icon"></i>Iniciativa</li>
+                    <li className="aboutMe__skill"><i className="uil uil-files-landscapes aboutMe__icon"></i>Organización</li>
+                    <li className="aboutMe__skill"><i className="uil uil-bullseye aboutMe__icon"></i>Atención al detalle</li>
+                    <li className="aboutMe__skill"><i className="uil uil-bolt-alt aboutMe__icon"></i>Tolerancia a la presión</li>
                 </ul>
             </article>
 
@@ -46,3 +46,4 @@ const AboutMe = () => {
 }
 
 export default AboutMe;
+

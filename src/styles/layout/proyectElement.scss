@@ -1,7 +1,7 @@
 .proyects{
     &__element{
         width: 260px;
-        height: 340px;
+        height: 380px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -53,5 +53,10 @@
         &:hover{
             background-color: #723873;
         }
+    }
+
+    &__tech{
+        display: flex;
+        flex-direction: row;
     }
 }
