@@ -19,16 +19,19 @@ $small-font-size: 14px;
 $smaller-font-size: 13px;
 $tiny-font-size: 10px;
 
+$arrow-width: 10px;
+$arrow-stroke: 2px;
+
 // Colors 
-$body-color: #f3efef;
+$body-color: #ebebeb;
 $font-color: black;
-$font-color2: #cb9ecc;
-$hover-color:#723873;
+$font-color2: #cad2c5;
+$font-color3: #84a98c;
+$hover-color:#B46666;
 $button-color: rgb(31, 31, 31);
 
 
 // z index
-
 $z-tooltip: 10;
 $z-fixed: 100;
 $z-modal: 1000;
@@ -77,8 +80,8 @@ $z-modal: 1000;
 
 @media screen and (max-width:992px){
     .container{
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 }
 

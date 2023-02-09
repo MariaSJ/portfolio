@@ -1,15 +1,14 @@
 .scrollUp {
-    --primary-color: #645bff;
-    --secondary-color: #fff;
-    --hover-color: #111;
-    --arrow-width: 10px;
-    --arrow-stroke: 2px;
+    display: flex;
+    position: fixed;
+    bottom: 65px;
+    right: 15px;
     box-sizing: border-box;
     border: 0;
     border-radius: 50px;
-    color: var(--secondary-color);
-    padding: 1.8em 1.8em;
-    background: var(--primary-color);
+    color: white;
+    padding: 1.4em 1.2em;
+    background: $font-color;
     display: flex;
     transition: 0.2s background;
     align-items: center;
@@ -25,9 +24,9 @@
   
   .scrollUp .arrow {
     margin-top: 1px;
-    width: var(--arrow-width);
-    background: var(--primary-color);
-    height: var(--arrow-stroke);
+    width: $arrow-width;
+    background: $font-color;
+    height: $arrow-stroke;
     position: relative;
     transition: 0.2s;
     transform: rotate(-90deg);
@@ -37,8 +36,8 @@
     content: "";
     box-sizing: border-box;
     position: absolute;
-    border: solid var(--secondary-color);
-    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    border: solid white;
+    border-width: 0 $arrow-stroke $arrow-stroke 0;
     display: inline-block;
     top: -3px;
     right: 3px;
@@ -48,13 +47,30 @@
   }
   
   .scrollUp:hover {
-    background-color: var(--hover-color);
+    background-color: $hover-color;
   }
   
   .scrollUp:hover .arrow {
-    background: var(--secondary-color);
+    background: white;
   }
   
   .scrollUp:hover .arrow:before {
     right: 0;
+  }
+
+  
+  .show{
+    opacity: 100;
+  }
+
+  .hidden{
+    opacity: 0;
+  }
+
+  //////////////////////////////////////////
+  
+  @media screen and (min-width:768px){
+    .scrollUp{
+      right: 25px;
+    }
   }

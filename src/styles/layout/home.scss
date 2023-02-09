@@ -97,7 +97,8 @@
         margin: 0px 10px 0px 10px;
         transition: transform 0.9 1s;
         &:hover{
-            background-color: $hover-color;
+            color: $font-color;
+            background-color: $font-color3;
             transform: scale(1.1);
         }
     }

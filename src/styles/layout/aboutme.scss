@@ -23,7 +23,7 @@
     }
 
     &__tech{
-        background-color: black;
+        background-color: $font-color;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -46,7 +46,7 @@
     }
 
     &__item{
-        background-color: $font-color2;
+        background-color: $hover-color;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -65,7 +65,7 @@
 
     &__skills{
         width: 100%;
-        background-color: $hover-color;
+        background-color: $font-color3;
         display: flex;
         flex-direction: column;
         justify-content: center;

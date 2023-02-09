@@ -51,12 +51,14 @@
         font-size: 20px;
         color: white;
         &:hover{
-            background-color: #723873;
+            color: black;
+            background-color: #B46666;
         }
     }
 
     &__tech{
         display: flex;
         flex-direction: row;
+        gap: 10px;
     }
 }

@@ -1,34 +1,27 @@
-const Contact = (props) => {
+const Contact = () => {
 
   return (
     <section className="contact">
-      <div className="contact__card">
-
-        {/* cara 1 */}
-          <div className="contact__face--one">
-            <i class="uil uil-chat"></i>
-            <p>¿Charlamos?</p>
-          </div>
-          
-        {/* cara 2 */}
-          <div className="contact__face--two">
-            <div className="contact__media">
-              <i class="uil uil-envelope"></i>
-              <p className="contact__title">Correo</p>
-            </div>
-            <div className="contact__media">
-              <i class="uil uil-linkedin"></i>
-              <p className="contact__title">Linkedin</p>
-            </div>
-            <div className="contact__media">
-              <i class="uil uil-github"></i>
-              <p className="contact__title">GitHub</p>
-            </div>
-          </div>
-
+      <div className="card">
+        <i className="icon uil uil-chat"></i>
+        <p>¿Charlamos?</p>
+        <span>
+          <a className="contact__media" href="mailto:maria.som.jur@gmail.com" target="_blank" rel="noreferrer">
+            <i className="uil uil-envelope"></i>
+            Email
+          </a>
+          <a className="contact__media" href="https://www.linkedin.com/in/maria-somoza-jurado/" target="_blank" rel="noreferrer">
+            <i className="uil uil-linkedin"></i>
+            Linkedin
+          </a>
+          <a className="contact__media" href="https://github.com/MariaSJ" target="_blank" rel="noreferrer">
+            <i className="uil uil-github"></i>
+            GitHub
+          </a>
+        </span>
       </div>
     </section>
-    );
+  );
 }
 
 export default Contact;
