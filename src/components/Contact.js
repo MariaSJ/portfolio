@@ -2,7 +2,7 @@ const Contact = () => {
 
   return (
     <section className="contact">
-      <div className="card">
+      <div className="card fade-in-fwd">
         <i className="icon uil uil-chat"></i>
         <p>¿Charlamos?</p>
         <span>

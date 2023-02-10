@@ -5,7 +5,7 @@ const ScrollUp = () => {
     const [showBtnScroll, setShowBtnScroll] = useState(false);
 
     const handlerShowScrollUp = (props) => {
-        if (window.pageYOffset > 600) {
+        if (window.pageYOffset > 500) {
             setShowBtnScroll(true);
         } else {
             setShowBtnScroll(false);

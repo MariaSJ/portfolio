@@ -15,8 +15,8 @@ const Proyects = () => {
 
     return (
         <section className="proyects" id="proyects">
-            <h1 className="proyects__title">Proyectos</h1>
-            <div className="proyects__list">
+            <h1 className="proyects__title fade-in">Proyectos</h1>
+            <div className="proyects__list fade-in-bottom">
 
                 {/* RICK AND MORTY WEB */}
                 <ProyectElement
