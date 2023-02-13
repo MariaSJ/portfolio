@@ -29,8 +29,8 @@ const Proyects = () => {
                         </div>
                     }
                     img={RickAndMorty}
-                    codeLink={'https://github.com/MariaSJ/modulo-3-evaluacion-final-MariaSJ'}
-                    webLink={'http://mariasj.github.io/modulo-3-evaluacion-final-MariaSJ/'}
+                    codeLink={'https://github.com/MariaSJ/rick-and-morty-website'}
+                    webLink={'https://mariasj.github.io/rick-and-morty-website/'}
                 />
 
                 {/* THE RINGS OF POWER */}
@@ -43,8 +43,8 @@ const Proyects = () => {
                         </div>
                     }
                     img={RingsOfPower}
-                    codeLink={'https://github.com/MariaSJ/modulo-2-evaluacion-intermedia-MariaSJ'}
-                    webLink={'http://mariasj.github.io/modulo-2-evaluacion-intermedia-MariaSJ/'}
+                    codeLink={'https://github.com/MariaSJ/the-rings-of-power-game'}
+                    webLink={'https://mariasj.github.io/the-rings-of-power-game/'}
                 />
 
                 {/* BREAKING BAD WEB */}
@@ -57,8 +57,8 @@ const Proyects = () => {
                         </div>
                     }
                     img={BreakingBad}
-                    codeLink={'https://github.com/MariaSJ/modulo-2-evaluacion-final-MariaSJ'}
-                    webLink={'http://mariasj.github.io/modulo-2-evaluacion-final-MariaSJ/'}
+                    codeLink={'https://github.com/MariaSJ/breaking-bad-characters-website'}
+                    webLink={'https://mariasj.github.io/breaking-bad-characters-website//'}
                 />
 
                 {/* ADVICE GENERATOR */}
@@ -131,8 +131,8 @@ const Proyects = () => {
                         </div>
                     }
                     img={AnonymusProxy}
-                    codeLink={'https://github.com/MariaSJ/modulo-1-evaluacion-final-MariaSJ'}
-                    webLink={'http://mariasj.github.io/modulo-1-evaluacion-final-MariaSJ/'}
+                    codeLink={'https://github.com/MariaSJ/anonymus-proxy-layout'}
+                    webLink={'https://mariasj.github.io/anonymus-proxy-layout/'}
                 />
             </div>
             <ScrollUp/>
