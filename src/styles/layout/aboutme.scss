@@ -70,7 +70,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+        position: relative;
     }
 
     &__skillList{
@@ -117,7 +117,7 @@
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 70px;
+    height: 52px;
 }
 
 .custom-shape-divider-bottom-1676289003 .shape-fill {
@@ -139,7 +139,7 @@
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 50px;
+    height: 52px;
 }
 
 .custom-shape-divider-top-1676289913 .shape-fill {
@@ -199,6 +199,11 @@
         &__skill{
             font-size: 16px;
         }
+    }
+
+    .custom-shape-divider-bottom-1676289003 svg, .custom-shape-divider-top-1676289913 svg{
+        width: calc(100% + 1.3px);
+        height: 50px;
     }
 }
 
