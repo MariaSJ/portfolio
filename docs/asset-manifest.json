@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.6f7a0ba4.css",
-    "main.js": "./static/js/main.5fba9713.js",
+    "main.css": "./static/css/main.622bfc24.css",
+    "main.js": "./static/js/main.010f5726.js",
     "static/media/anonymus.png": "./static/media/anonymus.d41c2b08bef30ca7084d.png",
     "static/media/ringsofpower.png": "./static/media/ringsofpower.eaf57861833f526f2309.png",
-    "static/media/breakingbad.png": "./static/media/breakingbad.406cf99a2a227e16d5a9.png",
     "static/media/mariasj.jpg": "./static/media/mariasj.d07dea0ba60d9ba324c0.jpg",
+    "static/media/breakingbad.png": "./static/media/breakingbad.2d5513709d78a2a469b5.png",
     "static/media/rickandmorty.png": "./static/media/rickandmorty.40896326effebe552ca3.png",
     "static/media/aboutme.svg": "./static/media/aboutme.b35dce4f8cfd794fd8b426487c8aaf47.svg",
-    "static/media/contact.png": "./static/media/contact.41180a4d3863e5c8573e.png",
     "static/media/teamweb.png": "./static/media/teamweb.921a4ae56b7b9d04cde7.png",
     "static/media/debuggercards.png": "./static/media/debuggercards.361a3dea07d13d95d357.png",
+    "static/media/contact.png": "./static/media/contact.60c11525ab2559962e0c.png",
     "static/media/minioncard.png": "./static/media/minioncard.e25aee44d56dc2464435.png",
+    "static/media/advicegenerator.png": "./static/media/advicegenerator.a39e76100136674c8428.png",
     "index.html": "./index.html",
-    "main.6f7a0ba4.css.map": "./static/css/main.6f7a0ba4.css.map",
-    "main.5fba9713.js.map": "./static/js/main.5fba9713.js.map"
+    "main.622bfc24.css.map": "./static/css/main.622bfc24.css.map",
+    "main.010f5726.js.map": "./static/js/main.010f5726.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f7a0ba4.css",
-    "static/js/main.5fba9713.js"
+    "static/css/main.622bfc24.css",
+    "static/js/main.010f5726.js"
   ]
 }
