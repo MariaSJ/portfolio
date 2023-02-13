@@ -1,5 +1,4 @@
 .aboutMe{
-    
     &__description{
         display: flex;
         flex-direction: column;
@@ -81,7 +80,7 @@
         justify-content: center;
         align-items: center;
         gap: 40px;
-        margin: 40px 30px 50px 30px;
+        margin: 30px 30px 90px 30px;
     }
 
     &__skill{
@@ -101,7 +100,54 @@
     }
 }
 
-//////////////////////////////////////////////
+// WAVES FROM https://www.shapedivider.app/
+
+// Wave bottom 
+.custom-shape-divider-bottom-1676289003 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1676289003 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+}
+
+.custom-shape-divider-bottom-1676289003 .shape-fill {
+    fill: $font-color;
+}
+
+
+// Wave top
+.custom-shape-divider-top-1676289913 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1676289913 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-top-1676289913 .shape-fill {
+    fill: $body-color;
+}
+
+
+///////////////////// MEDIAQUERIES /////////////////////////
 
 @media screen and (min-width:768px){
     .aboutMe{
@@ -147,7 +193,7 @@
         }
 
         &__skillList{
-            margin: 40px 60px 50px 60px;
+            margin: 30px 60px 90px 60px;
         }
 
         &__skill{
@@ -162,7 +208,7 @@
         &__description{
             height: 70%;
             width: 968px;
-            //margin-top: 40px;
+            margin-top: 80px;
             margin-left: auto;
             margin-right: auto;
             display: grid;
@@ -197,12 +243,13 @@
         }
 
         &__title--three{
+            margin-top: 0px;
             margin-bottom: 10px;
             font-size: 25px;
         }
 
         &__list{
-            margin: 10px;
+            margin: 20px;
             gap: 25px;
         }
 
@@ -216,7 +263,7 @@
         }
 
         &__skillList{
-            margin: 40px 200px 50px 200px;
+            margin: 40px 230px 70px 230px;
         }
 
         &__skill{

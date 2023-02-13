@@ -1,3 +1,5 @@
+// CSS from https://uiverse.io/
+
 .scrollUp {
     display: flex;
     position: fixed;
@@ -67,7 +69,7 @@
     opacity: 0;
   }
 
-  //////////////////////////////////////////
+ ///////////////////// MEDIAQUERIES /////////////////////////
   
   @media screen and (min-width:768px){
     .scrollUp{
