@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.622bfc24.css",
+    "main.css": "./static/css/main.a1412fba.css",
     "main.js": "./static/js/main.010f5726.js",
     "static/media/anonymus.png": "./static/media/anonymus.d41c2b08bef30ca7084d.png",
     "static/media/ringsofpower.png": "./static/media/ringsofpower.eaf57861833f526f2309.png",
@@ -14,11 +14,11 @@
     "static/media/minioncard.png": "./static/media/minioncard.e25aee44d56dc2464435.png",
     "static/media/advicegenerator.png": "./static/media/advicegenerator.a39e76100136674c8428.png",
     "index.html": "./index.html",
-    "main.622bfc24.css.map": "./static/css/main.622bfc24.css.map",
+    "main.a1412fba.css.map": "./static/css/main.a1412fba.css.map",
     "main.010f5726.js.map": "./static/js/main.010f5726.js.map"
   },
   "entrypoints": [
-    "static/css/main.622bfc24.css",
+    "static/css/main.a1412fba.css",
     "static/js/main.010f5726.js"
   ]
 }
