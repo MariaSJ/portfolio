@@ -23,15 +23,16 @@
     }
 
     &__tech{
-        background-color: black;
+        width: 100%;
+        background-color: $font-color;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    &__title--two{
-        margin-top: 20px;
+    &__title--three{
+        margin-top: 35px;
         margin-bottom: 20px;
         color: $body-color;
     }
@@ -46,7 +47,7 @@
     }
 
     &__item{
-        background-color: $font-color2;
+        background-color: $hover-color;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -62,21 +63,59 @@
     &__logo{
         width: 2.5rem;
     }
+
+    &__skills{
+        width: 100%;
+        background-color: $font-color3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    &__skillList{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin: 40px 30px 50px 30px;
+    }
+
+    &__skill{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title--two{
+        margin-top: 35px;
+    }
+
+    &__icon{
+        font-size: 30px;
+        color: $font-color2;
+    }
 }
 
 //////////////////////////////////////////////
 
 @media screen and (min-width:768px){
     .aboutMe{
-        height: 100vh;
 
         &__description{
-            height: 65%;
-            margin: 0px;
+            margin: 35px 25px 25px 25px;
         }
 
-        &__title--one, &__title--two{
+        &__title--one, &__title--three{
             font-size: 30px;
+        }
+
+        &__title--two, &__title--three{
+            font-size: 25px;
         }
 
         &__title--one{
@@ -93,10 +132,6 @@
             width: 400px;
         }
 
-        &__tech{
-            height: 35%;
-        }
-
         &__list{
             margin: 30px;
             gap: 25px;
@@ -110,21 +145,28 @@
         &__logo{
             width: 2.9rem;
         }
+
+        &__skillList{
+            margin: 40px 60px 50px 60px;
+        }
+
+        &__skill{
+            font-size: 16px;
+        }
     }
 }
 
 @media screen and (min-width:1024px){
     .aboutMe{
-        height: 100vh;
 
         &__description{
             height: 70%;
             width: 968px;
+            //margin-top: 40px;
             margin-left: auto;
             margin-right: auto;
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 50px 250px;
             justify-content: center;
             align-content: center;
             justify-items: center;
@@ -140,23 +182,21 @@
         &__text{
             font-size: 19px;
             grid-row: 2 / 3;
-            margin-left: 40px;
-            margin-right: 40px;
+            align-self: start; 
         }
     
         &__img{
             grid-row: 1 / 3;
             grid-column: 2 / 3;
-            justify-self: flex-start;
-            margin-left: 10px;
-            width: 450px;
+            justify-self: center;
+            width: 500px;
         }
 
         &__tech{
-            height: 30%;
+            height: 270px;
         }
 
-        &__title--two{
+        &__title--three{
             margin-bottom: 10px;
             font-size: 25px;
         }
@@ -173,6 +213,14 @@
 
         &__logo{
             width: 2.4rem;
+        }
+
+        &__skillList{
+            margin: 40px 200px 50px 200px;
+        }
+
+        &__skill{
+            font-size: 18px;
         }
     }
 }

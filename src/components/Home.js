@@ -15,7 +15,7 @@ const Home = (props) => {
             </div>
         </section>
         <footer className="home__footer">
-           <p className="home__text">Made by María SJ</p>     
+           <p className="home__text">Made with ❤︎ by María SJ</p>     
         </footer>
     </>    
     );

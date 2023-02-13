@@ -6,126 +6,121 @@
     align-content: center;
     align-items: center;
 
-    &__card{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-    }
-
-    &__title{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-    }
-
-    &__icon{
-        font-size: 30px;
-    } 
-
-    &__img{
-        width: 350px;
-    }
-
     &__media{
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-content: center;
-        align-items: center;
-    }
-
-    &__link{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
         color: $font-color;
-        font-size: 30px;
 
         &:hover{
-            color: $hover-color;
-        }
-    }
-
-    &__text{
-        font-size: 15px;
-    }
-}
-
-///////////////////////////////////////////////
-
-@media screen and (min-width:768px){
-    .contact{
-
-        &__icon{
-            font-size: 30px;
-        }
-    
-        &__img{
-            width: 550px;
+          color: $hover-color;
         }
 
-        &__link{
-            font-size: 55px;
-        }
-    
-        &__text{
+        & i{
             font-size: 25px;
         }
     }
 }
 
-@media screen and (min-width:1024px){
-    .contact{
-        &__card{
-            margin-top: 70px;
-        }
+.card {
+    width: 290px;
+    height: 290px;
+    text-align: center;
+    background: $font-color2;
+    padding: 1.5em;
+    padding-block: 1.8em;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: .3s cubic-bezier(.6,.4,0,1),transform .15s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
 
-        &__subtitle{
-            font-size: 35px;
-        }
+  .icon{
+    font-size: 25px;
+  }
+  
+  .card > :not(span) {
+    transition: .3s cubic-bezier(.6,.4,0,1);
+  }
+  
+  .card > p {
+    display: block;
+    font-size: 1.6rem;
+    letter-spacing: -.035em;
+  }
+  
+  .card span {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+    top: 100%;
+    transition: all .3s cubic-bezier(.6,.4,0,1);
+  }
+  
+  .card:hover span {
+    top: 0;
+    font-size: 1.2em;
+  }
+  
+  .card:hover {
+    background: $font-color3;
+  }
+  
+  .card:hover>.icon,.card:hover>p {
+    opacity: 0;
+  }
 
-        &__elements{
-            display: flex;
-            flex-direction: row;
-            gap: 20px;
-        }
-
-        &__icon{
-            font-size: 30px;
-        }
-    
-        &__img{
-            width: 470px;
-        }
-
-        &__media{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        &__link{
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            width: 200px;
-            font-size: 45px;
-            gap: 15px;
-        }
-    
-        &__text{
-            font-size: 20px;
+  /////////////////////////////////////////////////
+  
+@media screen and (min-width:768px){
+  .contact{
+    &__media{
+      font-size: 25px;
+        & i{
+          font-size: 35px;
         }
     }
+  }
+    
+  .card{
+    width: 700px;
+    height: 300px;
+    background-image: url(../../images/contact.png);
+    background-size: cover;
+            
+  }
+
+  .card > p {
+    font-size: 2.6rem;
+  }
+
+  .card span{
+    flex-direction: row;
+  }
+
+  .icon{
+    display: none;
+  }
 }
 
-
-
-  
-  
+@media screen and (min-width:768px){
+  .contact{
+    &__media{
+      font-size: 22px;
+        & i{
+          font-size: 35px;
+        }
+    }
+  }
+}
