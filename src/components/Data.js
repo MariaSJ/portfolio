@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom';
-//import jeje from '../../public/'
 const Data = (props) => {
 
     return (

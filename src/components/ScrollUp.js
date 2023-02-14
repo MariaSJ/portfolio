@@ -1,4 +1,8 @@
-import { useState , useEffect } from 'react';
+import '../styles/core/reset.scss';
+import '../styles/core/variables.scss';
+import '../styles/layout/scrollUp.scss';
+
+import { useState, useEffect } from 'react';
 
 const ScrollUp = () => {
 

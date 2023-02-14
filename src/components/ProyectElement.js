@@ -1,3 +1,5 @@
+import '../styles/core/reset.scss';
+import '../styles/core/variables.scss';
 import '../styles/layout/proyectElement.scss';
 
 const ProyectElement = (props) => {

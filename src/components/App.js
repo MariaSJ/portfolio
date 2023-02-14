@@ -1,4 +1,7 @@
-import '../styles/App.scss';
+// styles
+import '../styles/core/reset.scss';
+import '../styles/core/variables.scss';
+
 import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 

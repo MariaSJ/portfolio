@@ -1,3 +1,7 @@
+import '../styles/core/reset.scss';
+import '../styles/core/variables.scss';
+import '../styles/layout/header.scss';
+
 import { NavLink } from 'react-router-dom';
 
 const Header = (props) => {

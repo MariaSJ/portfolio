@@ -1,3 +1,6 @@
+import '../styles/core/reset.scss';
+import '../styles/core/variables.scss';
+import '../styles/layout/aboutme.scss';
 import imgAboutMe from '../images/aboutme.svg';
 
 const AboutMe = () => {

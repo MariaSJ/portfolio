@@ -1,3 +1,7 @@
+import '../styles/core/reset.scss';
+import '../styles/core/variables.scss';
+import '../styles/layout/contact.scss';
+
 const Contact = () => {
 
   return (

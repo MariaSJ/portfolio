@@ -1,4 +1,4 @@
-const SocialMedia = (props) => {
+const SocialMedia = () => {
 
     return (
         <div className="home__social fade-in-left">

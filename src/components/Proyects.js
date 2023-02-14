@@ -1,3 +1,7 @@
+import '../styles/core/reset.scss';
+import '../styles/core/variables.scss';
+import '../styles/layout/proyects.scss';
+
 import ProyectElement from "./ProyectElement";
 import ScrollUp from "./ScrollUp";
 
