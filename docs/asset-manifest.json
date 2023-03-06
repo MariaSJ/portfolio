@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.a1412fba.css",
-    "main.js": "./static/js/main.010f5726.js",
+    "main.css": "./static/css/main.822321a9.css",
+    "main.js": "./static/js/main.d26892f3.js",
     "static/media/anonymus.png": "./static/media/anonymus.d41c2b08bef30ca7084d.png",
     "static/media/ringsofpower.png": "./static/media/ringsofpower.eaf57861833f526f2309.png",
     "static/media/mariasj.jpg": "./static/media/mariasj.d07dea0ba60d9ba324c0.jpg",
@@ -12,13 +12,14 @@
     "static/media/debuggercards.png": "./static/media/debuggercards.361a3dea07d13d95d357.png",
     "static/media/contact.png": "./static/media/contact.60c11525ab2559962e0c.png",
     "static/media/minioncard.png": "./static/media/minioncard.e25aee44d56dc2464435.png",
+    "static/media/calculator.png": "./static/media/calculator.cfb074cca191fd76c6b9.png",
     "static/media/advicegenerator.png": "./static/media/advicegenerator.a39e76100136674c8428.png",
     "index.html": "./index.html",
-    "main.a1412fba.css.map": "./static/css/main.a1412fba.css.map",
-    "main.010f5726.js.map": "./static/js/main.010f5726.js.map"
+    "main.822321a9.css.map": "./static/css/main.822321a9.css.map",
+    "main.d26892f3.js.map": "./static/js/main.d26892f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1412fba.css",
-    "static/js/main.010f5726.js"
+    "static/css/main.822321a9.css",
+    "static/js/main.d26892f3.js"
   ]
 }
