@@ -38,7 +38,7 @@ const handlerShowMenu = () => {
       />
       <main className="main">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} /> 
         <Route path="/AboutMe" element={<AboutMe />} />
         <Route path="/Proyects" element={<Proyects />} />
         <Route path="/Contact" element={<Contact />}/>

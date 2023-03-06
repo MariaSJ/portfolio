@@ -14,6 +14,7 @@ import DebuggerCards from "../images/debuggercards.png"
 import MinionCards from "../images/minioncard.png"
 import TeamWeb from "../images/teamweb.png"
 import AnonymusProxy from "../images/anonymus.png"
+import Calculator from "../images/calculator.png"
 
 const Proyects = () => {
 
@@ -37,20 +38,6 @@ const Proyects = () => {
                     webLink={'https://mariasj.github.io/rick-and-morty-website/'}
                 />
 
-                {/* THE RINGS OF POWER */}
-                <ProyectElement
-                    title={'The Rings of Power: The Game'}
-                    techIcon={
-                        <div className="proyects__tech">
-                            <i className='bx bxl-javascript proyects__techIcon'></i>
-                            <i className='bx bxl-sass proyects__techIcon' ></i>
-                        </div>
-                    }
-                    img={RingsOfPower}
-                    codeLink={'https://github.com/MariaSJ/the-rings-of-power-game'}
-                    webLink={'https://mariasj.github.io/the-rings-of-power-game/'}
-                />
-
                 {/* BREAKING BAD WEB */}
                 <ProyectElement
                     title={'Breaking Bad Web'}
@@ -63,6 +50,34 @@ const Proyects = () => {
                     img={BreakingBad}
                     codeLink={'https://github.com/MariaSJ/breaking-bad-characters-website'}
                     webLink={'https://mariasj.github.io/breaking-bad-characters-website//'}
+                />
+
+                 {/* CALCULATOR */}
+                <ProyectElement
+                    title={'Calculator'}
+                    techIcon={
+                        <div className="proyects__tech">
+                            <i className='bx bxl-javascript proyects__techIcon'></i>
+                            <i className='bx bxl-sass proyects__techIcon' ></i>
+                        </div>
+                    }
+                    img={Calculator}
+                    codeLink={'https://github.com/MariaSJ/calculator'}
+                    webLink={'https://mariasj.github.io/calculator/'}
+                />
+
+                {/* THE RINGS OF POWER */}
+                <ProyectElement
+                    title={'The Rings of Power: The Game'}
+                    techIcon={
+                        <div className="proyects__tech">
+                            <i className='bx bxl-javascript proyects__techIcon'></i>
+                            <i className='bx bxl-sass proyects__techIcon' ></i>
+                        </div>
+                    }
+                    img={RingsOfPower}
+                    codeLink={'https://github.com/MariaSJ/the-rings-of-power-game'}
+                    webLink={'https://mariasj.github.io/the-rings-of-power-game/'}
                 />
 
                 {/* ADVICE GENERATOR */}

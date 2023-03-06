@@ -19,7 +19,7 @@ const Header = (props) => {
                     <NavLink href="index.html" className={props.showName ? "nav__name" : "hidden"}>María SJ</NavLink>
 
                     <div className={props.showMenu ? "nav__menu show-menu" : "nav__menu"}>
-                        <ul className="nav__list grid">
+                        <ul className="nav__list">
                             <li className="nav__item">
                                 <NavLink className={props.activeNav === "/Home" ? "nav__link active-link" : "nav__link"} to="/" onClick={() => props.setActiveNav("/Home")}>
                                     <i className="uil uil-estate nav__icon"></i>Home
