@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "./static/css/main.bd2cd417.css",
-    "main.js": "./static/js/main.e3c08ff5.js",
+    "main.js": "./static/js/main.1e37c918.js",
     "static/media/anonymus.png": "./static/media/anonymus.d41c2b08bef30ca7084d.png",
     "static/media/ringsofpower.png": "./static/media/ringsofpower.eaf57861833f526f2309.png",
     "static/media/breakingbad.png": "./static/media/breakingbad.2d5513709d78a2a469b5.png",
     "static/media/rickandmorty.png": "./static/media/rickandmorty.40896326effebe552ca3.png",
+    "static/media/CVMariaSomoza.pdf": "./static/media/CVMariaSomoza.653f44ecc9c76c4ca70d.pdf",
     "static/media/mariasj.jpg": "./static/media/mariasj.724366ea67d77d9354fe.jpg",
     "static/media/aboutme.svg": "./static/media/aboutme.b35dce4f8cfd794fd8b426487c8aaf47.svg",
     "static/media/teamweb.png": "./static/media/teamweb.921a4ae56b7b9d04cde7.png",
@@ -16,10 +17,10 @@
     "static/media/advicegenerator.png": "./static/media/advicegenerator.a39e76100136674c8428.png",
     "index.html": "./index.html",
     "main.bd2cd417.css.map": "./static/css/main.bd2cd417.css.map",
-    "main.e3c08ff5.js.map": "./static/js/main.e3c08ff5.js.map"
+    "main.1e37c918.js.map": "./static/js/main.1e37c918.js.map"
   },
   "entrypoints": [
     "static/css/main.bd2cd417.css",
-    "static/js/main.e3c08ff5.js"
+    "static/js/main.1e37c918.js"
   ]
 }
